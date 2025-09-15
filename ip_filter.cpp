@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include<vector>
+#include<string>
+#include<algorithm>
+#include<iostream>
 #include "base.h"
 
 int main()
