@@ -16,7 +16,7 @@ set(SRC_FILES # переменная с именами исходников
     base/base.cpp
 )
 
-include_directories(base)
+include_directories(head)
 
 add_executable(${PROJECT_NAME} ${SRC_FILES}) # название итогого приложения и из чего его собирать
 
