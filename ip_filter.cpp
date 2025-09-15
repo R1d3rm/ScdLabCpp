@@ -2,6 +2,7 @@
 #include<string>
 #include<algorithm>
 #include<iostream>
+#include<tuple>
 #include "head/base.hpp"
 
 int main()
@@ -45,9 +46,10 @@ int main()
                     print4670.push_back(ip);
             }
         }
-        print(print1);
-        print(print4670);
-        print(print46);
+        auto s= std::make_tuple(print1,print4670,print46);
+        print(std::get<0>(s));
+        print(std::get<1>(s));
+        print(std::get<2>(s));
     }
     catch (const std::exception &e)
     {
