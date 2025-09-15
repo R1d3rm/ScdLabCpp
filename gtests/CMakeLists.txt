@@ -9,7 +9,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 set(COMMON_SRCS
-    "../base.cpp"
+    "../base/base.cpp"
 )
 add_executable(gtests gtest.cpp ${COMMON_SRCS})
 target_include_directories(gtests PUBLIC ${CMAKE_SOURCE_DIR})
