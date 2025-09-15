@@ -2,7 +2,7 @@
 #include<string>
 #include<algorithm>
 #include<iostream>
-#include "head/base.h"
+#include "head/base.hpp"
 
 int main()
 {
