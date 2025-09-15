@@ -1,4 +1,4 @@
-name: 'C++ CI'
+name: 'laba 2'
 
 on:
   push:
@@ -14,26 +14,27 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install libboost-test-dev -y
 
       - name: Configure CMake
-        run: cmake . -DPATCH_VERSION=${{ github.run_number }}
+        run: cmake -B build . -DPATCH_VERSION=${{ github.run_number }}
 
       - name: Building
-        run: cmake --build .
+        run: cmake --build build
 
-      - name: Run tests
-        run: cmake --build . --target test
+      - name: run Tests
+        run: ./build/gtests/gtests
+
+      - name: Run Program
+        run: ./build/lb2 < ./ip_filter.tsv
 
       - name: Make pkg
-        run: cmake --build . --target package
+        run: cmake --build build --target package
 
       - name: Upload Linux Artifact
         uses: actions/upload-artifact@v4
         with:
           name: linux-package
-          path: helloworld-0.0.${{ github.run_number }}-Linux.deb
+          path: build/lb2-0.0.${{ github.run_number }}-Linux.deb
 
   build-windows:
     runs-on: windows-latest
@@ -43,27 +44,18 @@ jobs:
         with:
           submodules: true
 
-      - name: Install vcpkg and dependencies
-        run: |
-          git clone https://github.com/Microsoft/vcpkg.git
-          .\vcpkg\bootstrap-vcpkg.bat
-          .\vcpkg\vcpkg install boost-test
-
       - name: Configure with CMake
         run: |
-          cmake -B build -DPATCH_VERSION=${{ github.run_number }} -DCMAKE_TOOLCHAIN_FILE="vcpkg/scripts/buildsystems/vcpkg.cmake"
+          cmake -B build . -DPATCH_VERSION=${{ github.run_number }}
 
       - name: Build project
         run: cmake --build build --config Release
-
-      - name: Run tests
-        run: ctest --test-dir build -C Release
 
       - name: Upload Windows Artifact
         uses: actions/upload-artifact@v4
         with:
           name: windows-package
-          path: build/Release/helloworld_cli.exe
+          path: build/Release/lb2.exe
 
   create-release:
     runs-on: ubuntu-latest
@@ -97,8 +89,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./helloworld-0.0.${{ github.run_number }}-Linux.deb
-          asset_name: helloworld-0.0.${{ github.run_number }}-Linux.deb
+          asset_path: ./lb2-0.0.${{ github.run_number }}-Linux.deb
+          asset_name: lb2-0.0.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
 
       - name: Upload Windows Release Asset
@@ -107,6 +99,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./helloworld_cli.exe
-          asset_name: helloworld-0.0.${{ github.run_number }}-Windows.exe
+          asset_path: ./lb2.exe
+          asset_name: lb2-0.0.${{ github.run_number }}-Windows.exe
           asset_content_type: application/x-msdownload
