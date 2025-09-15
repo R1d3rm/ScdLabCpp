@@ -1,4 +1,4 @@
-C:/tpu/CPP/term3/laba2/build/CMakeFiles/laba2.dir
+C:/tpu/CPP/term3/laba2/build/CMakeFiles/lb2.dir
 C:/tpu/CPP/term3/laba2/build/CMakeFiles/package.dir
 C:/tpu/CPP/term3/laba2/build/CMakeFiles/package_source.dir
 C:/tpu/CPP/term3/laba2/build/CMakeFiles/edit_cache.dir
