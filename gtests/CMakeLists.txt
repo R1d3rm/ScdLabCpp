@@ -8,7 +8,9 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-# Используем только заголовочные файлы, не компилируем base.cpp повторно
-add_executable(gtests gtest.cpp)
+set(COMMON_SRCS
+    "../base.cpp"
+)
+add_executable(gtests gtest.cpp ${COMMON_SRCS})
 target_include_directories(gtests PUBLIC ${CMAKE_SOURCE_DIR})
 target_link_libraries(gtests PUBLIC gtest gtest_main)
