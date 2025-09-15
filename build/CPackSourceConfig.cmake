@@ -21,7 +21,7 @@ set(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/
 set(CPACK_INNOSETUP_ARCHITECTURE "x64")
 set(CPACK_INSTALLED_DIRECTORIES "C:/tpu/CPP/term3/laba2;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
-set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/laba2")
+set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/lb2")
 set(CPACK_MODULE_PATH "")
 set(CPACK_NSIS_DISPLAY_NAME "lb2 0.0.2")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
