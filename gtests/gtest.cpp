@@ -1,5 +1,6 @@
 #include<vector>
 #include<string>
+#include<gtest/gtest.h>
 #include"../base.h"
 TEST(split,test1){
     std::vector<std::string> ans{"101.105.104.255","0","1"};
