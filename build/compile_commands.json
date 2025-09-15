@@ -1,49 +1,49 @@
 [
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -g -std=gnu++17 -o CMakeFiles\\lb2.dir\\ip_filter.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\ip_filter.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -std=gnu++17 -o CMakeFiles\\lb2.dir\\ip_filter.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\ip_filter.cpp",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\ip_filter.cpp",
   "output": "CMakeFiles\\lb2.dir\\ip_filter.cpp.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -g -std=gnu++17 -o CMakeFiles\\lb2.dir\\base.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -std=gnu++17 -o CMakeFiles\\lb2.dir\\base.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
   "output": "CMakeFiles\\lb2.dir\\base.cpp.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2 -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=gnu++17 -o gtests\\CMakeFiles\\gtests.dir\\gtest.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\gtests\\gtest.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2 -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=gnu++17 -o gtests\\CMakeFiles\\gtests.dir\\gtest.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\gtests\\gtest.cpp",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\gtests\\gtest.cpp",
   "output": "gtests\\CMakeFiles\\gtests.dir\\gtest.cpp.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2 -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=gnu++17 -o gtests\\CMakeFiles\\gtests.dir\\__\\base.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2 -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=gnu++17 -o gtests\\CMakeFiles\\gtests.dir\\__\\base.cpp.obj -c C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\base.cpp",
   "output": "gtests\\CMakeFiles\\gtests.dir\\__\\base.cpp.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock/include -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock/include -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googlemock -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -IC:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
 },
 {
   "directory": "C:/tpu/CPP/term3/laba2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/tpu/CPP/term3/laba2/header -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest/include -isystem C:/tpu/CPP/term3/laba2/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "file": "C:\\tpu\\CPP\\term3\\laba2\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
 }
