@@ -10,3 +10,7 @@ TEST(secondSplit,test2){
     std::vector<std::string> a{"113", "162", "145", "156"};
     EXPECT_EQ(split("113.162.145.156", '.'), a);
 }
+TEST(ThirdSplit,test2){
+    std::vector<std::string> a{"255", "255", "255", "255"};
+    EXPECT_EQ(split("255.255.255.255", '.'), a);
+}

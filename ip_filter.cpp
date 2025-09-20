@@ -50,6 +50,8 @@ int main()
         print(std::get<0>(s));
         print(std::get<1>(s));
         print(std::get<2>(s));
+        int a;
+        std::cin>>a;
     }
     catch (const std::exception &e)
     {
